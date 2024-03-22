@@ -34,3 +34,29 @@
     height: 25px;
     margin: 20px;
 } */
+
+*{
+    font-size: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+:root{
+    --rojo-carmesi:#FF6F61;
+    --blanco: #FFFFFF;
+}
+
+.head-cine{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--rojo-carmesi) ;
+    color: var(--blanco);
+    padding: 15px;
+    border-radius: 6px;
+    
+}
+
+.na
