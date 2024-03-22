@@ -80,3 +80,28 @@ html{
    
 }
 
+
+.estrenos-riwi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    padding: 20px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.carteleras{
+    width: 200px;
+    height: 300px;
+
+    border-radius: 25%;
+}
+
