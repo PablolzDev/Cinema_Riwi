@@ -39,6 +39,7 @@
     font-size: Arial, sans-serif;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 
@@ -48,15 +49,18 @@
     --blanco: #FFFFFF;
 }
 
+#bg{
+    background-color: #F7CAC9;  
+}
+
 .head-cine{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: var(--rojo-carmesi) ;
     color: var(--blanco);
-    padding: 15px;
-    border-radius: 6px;
+    padding: 15px 20px 15px 20px;
     
 }
 
-.na
+
