@@ -53,10 +53,12 @@ html{
 :root{
     --rojo-carmesi:#FF6F61;
     --blanco: #FFFFFF;
+    --negro: #333333;
+    --purple: #6B5B95;
 }
 
 #bg{
-    background-color: #F7CAC9;  
+    background-color: hsl(1, 74%, 88%);  
 }
 
 .head-cine{
@@ -80,28 +82,182 @@ html{
    
 }
 
-
 .estrenos-riwi{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 100px;
+    position: relative;
+}
+
+
+.cartelera-riwi1 {
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:stretch ;
+    position: relative;
+    padding: 60px;
+
+    
+    
+}
+
+.estrenos-riwi h2{
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    padding: 20px;
+
+}
+
+.cartelera-riwi1 h2{
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    padding: 0px;
+}
+
+
+.card-cartelera {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 22px;
+    width: 300px;
+    border: 2px solid #000;
+    background-color: var(--rojo-carmesi);
+    color: var(--negro);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px; 
+    
+}
+
+.carteleras {
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    padding: 0px;
+    
+}
+
+
+.info-txt{
+    flex-grow: 1; /* Permite que el contenido crezca para llenar el espacio disponible */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start  ;
+    margin: 10px;
+    gap: 20px;
+}
+    
+
+.estrenos-riwi h2{
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
     padding: 20px;
 }
 
-.cards{
+
+
+
+.carteleras {
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    padding: 0px;
+    
+}
+
+.contacto{
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
+    gap: 20px;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--rojo-carmesi); 
+    border-radius: 10px;
+}
+.contacto h2{
+    position: absolute;
+    top: 10px; 
+    bottom: 20px; 
+    padding: 0px;
+    margin-bottom: 20px;
+    color: var(--negro);
+}
+
+.formulario{
+    margin: 25px;
+}
+
+.campo{
+    margin: 20px;
+}
+
+.formulario .campo {
+    margin-bottom: 15px;
     padding: 10px;
 }
 
 
-.carteleras{
-    width: 200px;
-    height: 300px;
-
-    border-radius: 25%;
+.formulario label {
+    color: var(--negro);
+    font-weight: bold;
 }
+
+
+.formulario .input-text {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid var(--negro); 
+    border-radius: 5px;
+}
+
+
+.btn-enviar {
+    background-color: var(--purple); 
+    color:var(--blanco); 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.footer-cine{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--rojo-carmesi) ;
+    color: var(--blanco);
+    padding: 15px 20px 15px 20px;
+    margin-top: 30px;
+    
+}
+
+.redes-sociales {
+    display: flex;
+    gap: 10px;
+}
+
+.redes-sociales a{
+    color: var(--blanco);
+    text-decoration: none;
+   
+}
+.redes-sociales a {
+    margin-left: 10px; /* Ajusta el margen izquierdo para crear el espacio entre los iconos */
+}
+
+h3 {
+    margin: 0;
+}
+
 
